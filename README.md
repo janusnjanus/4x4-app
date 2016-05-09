@@ -1,6 +1,6 @@
 <snippet>
-  <content><![CDATA[
-# ${1:We4x4}
+  <content>
+# We4x4
 
 We4x4 is a social app for sharing pic/vid and rate uploaded content by users and also GSP locations. Simple Media sharing application which could be used by different type of communities. Mainly this specific version will be targeting 4x4 off road enthusiastic to serve as a fast way to share videos and pictures of their trips, by uploading the content online through the app into a Cloudinary account dedicated to the app.
 A Firebase account is alsolinked for users registerations, logging in and authentications, with a chat platform, being implemented for easy communications between the app users. Firebase is also used for saving other information related to the user and uploaded content such as vid/piv authors, ratings, URL and GPS locations shared by user to point out good sand dunes location and off roading paths. 
