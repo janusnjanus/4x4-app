@@ -16,11 +16,11 @@ For the time being, the project is complete , and functional, simple download wi
 ## Usage
 The app serves a simple purpose as a digital hub for 4x4 off road enthusiastics, combidning some essential features such as a chat room, and upload utility, and GPS locations directory to be shared by people with similar interests.
 
-![Home Screen](http://pasteboard.co/N9sBsWF.png)
-![Registeration](http://pasteboard.co/N9uq2GY.png)
-![User Dashboard](http://pasteboard.co/N9w6VrG.png)
-![Rating](http://pasteboard.co/N9yj215.png)
-![user Information](http://pasteboard.co/N9AmZlI.png)
+![Home Screen](https://github.com/janusnjanus/4x4-app/blob/master/Screenshot_2016-05-09-14-55-06.png)
+![Registeration](https://raw.githubusercontent.com/janusnjanus/4x4-app/master/Screenshot_2016-05-09-14-55-25.png)
+![User Dashboard](https://raw.githubusercontent.com/janusnjanus/4x4-app/master/Screenshot_2016-05-09-14-55-44.png)
+![Rating](https://raw.githubusercontent.com/janusnjanus/4x4-app/master/Screenshot_2016-05-09-14-57-46.png)
+![user Information](https://raw.githubusercontent.com/janusnjanus/4x4-app/master/Screenshot_2016-05-09-14-57-23.png)
 
 ## Contributing
 1. Fork it!
