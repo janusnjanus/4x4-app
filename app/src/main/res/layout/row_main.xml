@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/primary"
+    android:clickable="false"
+    android:descendantFocusability="blocksDescendants"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:padding="4dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/imageViewDisplayMain"
+            android:src="@drawable/common_plus_signin_btn_icon_dark_normal" />
+
+    </FrameLayout>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+                    <!--android:id="@+id/currentRating"-->
+                    <!--android:text="Rating:"-->
+                    <!--android:textColor="#FFFFFF"-->
+                    <!--android:visibility="visible"-->
+                    <!--android:layout_gravity="center_horizontal" />-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+                    <!--android:text="  "-->
+                    <!--android:id="@+id/space1"-->
+                    <!--android:layout_column="4" />-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+                    <!--android:id="@+id/currentRatingValue"-->
+                    <!--android:text="000"-->
+                    <!--android:textColor="#FFFFFF"-->
+                    <!--android:visibility="visible"-->
+                    <!--android:layout_gravity="center_horizontal"-->
+                    <!--android:layout_column="8" />-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+                    <!--android:text="  /  "-->
+                    <!--android:textColor="#FFFFFF"-->
+                    <!--android:id="@+id/space2"-->
+                    <!--android:layout_column="12" />-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+                    <!--android:id="@+id/contentAuthor"-->
+                    <!--android:text="By:"-->
+                    <!--android:textColor="#FFFFFF"-->
+                    <!--android:visibility="visible"-->
+                    <!--android:layout_gravity="center_horizontal"-->
+                    <!--android:layout_column="14" />-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+                    <!--android:text="  "-->
+                    <!--android:id="@+id/space3"-->
+                    <!--android:layout_column="15" />-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+                    <!--android:text="name"-->
+                    <!--android:textColor="#FFFFFF"-->
+                    <!--android:id="@+id/authorName"-->
+                    <!--android:layout_column="16" />-->
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+</LinearLayout>

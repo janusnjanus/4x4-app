@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="wi4x4" parent="AppTheme" >
+        <item name="android:colorBackground">@color/background_material_light</item>
+    </style>
+
+    <style name="Theme.Material.Light.NoActionBar" parent="android:Theme.Holo" />
+    <style name="RobotoTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="RobotoAutoCompleteTextViewStyle" parent="android:Widget.AutoCompleteTextView">
+        <item name="android:colorBackground">@color/background_material_light</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="RobotoEditTextStyle" parent="android:Widget.EditText">
+
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="DialogEditText"  parent="android:Widget.EditText">
+        <item name="android:colorBackground">@color/background_material_light</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:colorActivatedHighlight">@color/white</item>
+        <item name="colorControlActivated">@color/white</item>
+        <item name="colorControlHighlight">@color/white</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+</resources>
+

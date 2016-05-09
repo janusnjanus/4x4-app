@@ -1,0 +1,127 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/primary">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/usernameReg"
+        android:layout_gravity="center_horizontal"
+        android:hint="Username"
+        android:visibility="gone"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailReg"
+        android:layout_gravity="center_horizontal"
+        android:hint="Email"
+        android:inputType="textWebEmailAddress"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/passwordReg"
+        android:layout_gravity="center_horizontal"
+        android:hint="Password"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:password="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="submit"
+        android:textColor="#FFFFFF"
+        android:id="@+id/buttonReg"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal"
+        android:background="#000000"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="login"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:visibility="visible"
+        android:id="@+id/buttonLGIN"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:text="Members Area"
+        android:id="@+id/buttonMemReg"
+        android:background="#000000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:paddingTop="15dp"
+        android:visibility="gone"
+        android:text="Status"
+        android:textColor="#FFFFFF"
+        android:id="@+id/statReg"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Member"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:background="#000000"
+        android:id="@+id/buttonSwitchToLogin"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="New user"
+        android:textColor="#FFFFFF"
+        android:background="#000000"
+        android:layout_marginTop="10dp"
+        android:id="@+id/buttonSwitchToRegister"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="i forgot my password"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:visibility="visible"
+        android:id="@+id/buttonPassReset"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="reset password"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:visibility="gone"
+        android:id="@+id/buttonSubmitPassReset"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>

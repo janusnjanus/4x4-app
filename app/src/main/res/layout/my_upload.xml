@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/primary"
+    android:padding="5dp">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="List Images"
+        android:textColor="#FFFFFF"
+        android:paddingTop="10dp"
+        android:background="#000000"
+        android:id="@+id/buttonListImages"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="false"
+        android:layout_centerHorizontal="true" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="320dp"
+        android:id="@+id/listView"
+        android:layout_below="@+id/buttonListImages"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Share:"
+    android:textColor="#FFFFFF"
+    android:layout_marginTop="10dp"
+    android:layout_gravity="left"
+    android:id="@+id/shareText" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextShare"
+        android:layout_gravity="left"
+        android:layout_margin="5dp" />
+
+</LinearLayout>
