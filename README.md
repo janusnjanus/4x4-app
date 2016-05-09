@@ -21,8 +21,8 @@ The app serves a simple purpose as a digital hub for 4x4 off road enthusiastics,
     <img src="http://pasteboard.co/N9w6VrG.png" width="350"/>
   <img src="http://pasteboard.co/N9yj215.png" width="350"/>
   <img src="http://pasteboard.co/N9AmZlI.png" width="350"/>
-
 </p>
+
 ![Home Screen](http://pasteboard.co/N9sBsWF.png)
 ![Registeration](http://pasteboard.co/N9uq2GY.png)
 ![User Dashboard](http://pasteboard.co/N9w6VrG.png)
